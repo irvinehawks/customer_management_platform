@@ -5,3 +5,9 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse('This is the home page.')
+
+def products(request):
+    return HttpResponse('This is the products page')
+
+def about(request):
+    return HttpResponse('This is the about page.')
